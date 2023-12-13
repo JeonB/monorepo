@@ -39,5 +39,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^8.0.0"
+  },
+  "main": "index.js",
+  "author": "<sojeon@ifinfo.co.kr>",
+  "license": "MIT"
 }
